@@ -1,0 +1,24 @@
+
+New Linecode.sqmm300   nphase=4 R1=0.1464 X1=0.0711 R0=0.1464 X0=0.0711 C1=.616 C0=.616 NormAmps=371 Units=km
+New Linecode.sqmm15    nphase=4 R1=23.17  X1=0.094  R0=23.17  X0=0.094  C1=.515 C0=.515 NormAmps=25  Units=km
+New Linecode.sqmm4     nphase=4 R1=9.48   X1=0.094  R0=9.48   X0=0.094  C1=.515 C0=.515 NormAmps=44  Units=km
+New Linecode.sqmm16    nphase=4 R1=2.4414 X1=0.0815 R0=2.4414 X0=0.0815 C1=.401 C0=.401 NormAmps=73  Units=km
+New Linecode.sqmm35    nphase=4 R1=1.1128 X1=0.0794 R0=1.1128 X0=0.0794 C1=.464 C0=.464 NormAmps=115 Units=km
+New Linecode.sqmm95    nphase=4 R1=0.4165 X1=0.0734 R0=0.4165 X0=0.0734 C1=.564 C0=.564 NormAmps=198 Units=km
+New Linecode.sqmm185   nphase=4 R1=0.2222 X1=0.0727 R0=0.2222 X0=0.0727 C1=.563 C0=.563 NormAmps=285 Units=km
+New Linecode.sqmm300   nphase=4 R1=0.1464 X1=0.0711 R0=0.1464 X0=0.0711 C1=.616 C0=.616 NormAmps=371 Units=km
+New Linecode.sqmm400   nphase=4 R1=0.1224 X1=0.0705 R0=0.122 X0=0.0705 C1=.649 C0=.649 NormAmps=423 Units=km
+New Linecode.sqmm400   nphase=4 R1=0.1224 X1=0.0705 R0=0.1224 X0=0.0705 C1=.0   C0=.0   NormAmps=423 Units=km
+New Linecode.sqmm500   nphase=4 R1=0.1046 X1=0.0703 R0=0.1046 X0=0.0703 C1=.666 C0=.666 NormAmps=474 Units=km!
+New Linecode.sqmm630   nphase=4 R1=0.0920 X1=0.0697 R0=0.0920 X0=0.0697 C1=.714 C0=.710 NormAmps=532 Units=km!
+
+New Linecode.sqmm1_5mf nphase=4 R1=23.17  X1=0.094  R0=23.17  X0=0.094  C1=515 C0=515 NormAmps = 25  units=km
+New Linecode.sqmm4mf   nphase=4 R1=9.48   X1=0.094  R0=9.48   X0=0.094  C1=515 C0=515 NormAmps = 44  units=km
+New Linecode.sqmm16mf  nphase=4 R1=2.4418 X1=0.094  R0=2.4418 X0=0.094  C1=515 C0=515 NormAmps = 73  units=km
+New Linecode.sqmm35mf  nphase=4 R1=1.1138 X1=0.092  R0=1.1138 X0=0.092  C1=512 C0=512 NormAmps = 115  units=km
+New Linecode.sqmm95mf  nphase=4 R1=0.4190 X1=0.086  R0=0.4190 X0=0.086  C1=723 C0=723 NormAmps = 198  units=km
+New Linecode.sqmm185mf nphase=4 R1=0.2269 X1=0.0858 R0=0.2269 X0=0.0858 C1=712 C0=712 NormAmps = 285  units=km
+New Linecode.sqmm300mf nphase=4 R1=0.1532 X1=0.0843 R0=0.1532 X0=0.0843 C1=790 C0=790 NormAmps = 371  units=km
+New Linecode.sqmm400mf nphase=4 R1=0.1304 X1=0.0837 R0=0.1304 X0=0.0837 C1=839 C0=839 NormAmps = 423  units=km
+New Linecode.sqmm500mf nphase=4 R1=0.1138 X1=0.0835 R0=0.1138 X0=0.0835 C1=857 C0=857 NormAmps = 474  units=km
+New Linecode.sqmm630mf nphase=4 R1=0.1023 X1=0.0829 R0=0.1023 X0=0.0829 C1=917 C0=917 NormAmps = 532  units=km

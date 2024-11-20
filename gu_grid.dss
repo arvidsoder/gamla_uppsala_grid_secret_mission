@@ -1,0 +1,29 @@
+! Load1 School
+! Load2 Sport hall
+! Load3 4 single family houses
+! Load4 20 Single-family houses. 
+! Load5 Storgården with 12 apartments, communal rooms for children ADMD+
+! Load6 ICA and offices for a sport club (Gamla Upsala SK).
+! Load7 Gamla Uppsala Museum.
+! Load8 Restaurant. 
+! Load9 Church. 
+! Load10 Open air museum and a shop. (Disagården and Kungsgården)
+! Load11 Shop (löppis). 
+! Load12 400 m of LED streetlights to the swimming area in Gamla Uppsala (Storvad).
+! Load13 Illumination for the football field connected to one phase.
+
+
+Set DefaultBaseFrequency=50
+New Circuit.GuGrid
+Edit Vsource.Source BasekV=11 pu=1.05 ISC3=300 ISC1=250 
+
+Set MaxControliter=500
+Set maxiterations=100
+
+New Transformer.TR1 Buses=[SourceBus.1.2.3, Sub_Bus.1.2.3.0] Conns=[Delta Wye] kVs= [11 0.4] !Put in E-on rated trafo
+~ kVAs=[20000 20000] XHL=0.0268
+
+New Line.LINE1 Bus1=Sub_Bus Bus2=JunctionBus1 Linecode=sqmm300 Length=1 Units=meter
+New Line.LINE2 Bus1=JunctionBus1 Bus2=LoadBus7 Linecode=sqmm300 Length=1 Units=meter
+
+New Load.Load7 Bus1=LoadBus7 kV=0.4 kW=53 PF=.95
