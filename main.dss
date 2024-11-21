@@ -1,5 +1,9 @@
 Clear
-
+Set DefaultBaseFrequency=50
+New Circuit.GuGrid
+Edit Vsource.Source BasekV=11 pu=1.05 ISC3=300 ISC1=250 
+Set MaxControliter=500
+Set maxiterations=100
 
 Redirect line_code.dss
 Redirect gu_grid.dss

@@ -13,13 +13,6 @@
 ! Load13 Illumination for the football field connected to one phase.
 
 
-Set DefaultBaseFrequency=50
-New Circuit.GuGrid
-Edit Vsource.Source BasekV=11 pu=1.05 ISC3=300 ISC1=250 
-
-Set MaxControliter=500
-Set maxiterations=100
-
 New Transformer.TR1 Buses=[SourceBus.1.2.3, Sub_Bus.1.2.3.0] Conns=[Delta Wye] kVs= [11 0.4] !Put in E-on rated trafo
 ~ kVAs=[20000 20000] XHL=0.0268
 
