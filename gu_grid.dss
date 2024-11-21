@@ -27,7 +27,7 @@ New Line.Junction1East      Bus1=JunctionBus1    Bus2=JunctionBus2  Linecode=sqm
 New Line.Houses1            Bus1=JunctionBus2    Bus2=HouseBus1     Linecode=sqmm300 Length=1 Units=meter
 New Line.Houses2            Bus1=HouseBus1       Bus2=HouseBus2     Linecode=sqmm300 Length=1 Units=meter
 New Line.Junction2North     Bus1=JunctionBus2    Bus2=LoadBus6      Linecode=sqmm300 Length=1 Units=meter
-New Line.ToLoad1            Bus1=LoadBus6        Bus2=LoadBus1      Linecode=sqmm300 Length=1 Units=meter
+New Line.ToSchool           Bus1=LoadBus6        Bus2=LoadBus1      Linecode=sqmm300 Length=1 Units=meter
 New Line.ToFootball         Bus1=LoadBus6        Bus2=LoadBus13     Linecode=sqmm300 Length=1 Units=meter
 
 New Load.Load1  Bus1=LoadBus1       kV=0.4 kW=35 PF=.95
