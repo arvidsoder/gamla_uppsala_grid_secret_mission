@@ -23,7 +23,30 @@ Set maxiterations=100
 New Transformer.TR1 Buses=[SourceBus.1.2.3, Sub_Bus.1.2.3.0] Conns=[Delta Wye] kVs= [11 0.4] !Put in E-on rated trafo
 ~ kVAs=[20000 20000] XHL=0.0268
 
-New Line.LINE1 Bus1=Sub_Bus Bus2=JunctionBus1 Linecode=sqmm300 Length=1 Units=meter
-New Line.LINE2 Bus1=JunctionBus1 Bus2=LoadBus7 Linecode=sqmm300 Length=1 Units=meter
+New Line.LINE1              Bus1=Sub_Bus         Bus2=JunctionBus1  Linecode=sqmm300 Length=500 Units=meter
+New Line.LINE2              Bus1=JunctionBus1    Bus2=LoadBus7      Linecode=sqmm300 Length=1 Units=meter
+New Line.Arnavagen1         Bus1=JunctionBus1    Bus2=LoadBus8      Linecode=sqmm300 Length=1 Units=meter
+New Line.ToChurch           Bus1=LoadBus8        Bus2=LoadBus9      Linecode=sqmm300 Length=1 Units=meter
+New Line.Arnavagen2         Bus1=LoadBus8        Bus2=LoadBus10     Linecode=sqmm300 Length=1 Units=meter
+New Line.ArnavagenNorth     Bus1=LoadBus10       Bus2=LoadBus12     Linecode=sqmm300 Length=1 Units=meter
+New Line.Arnavagen3         Bus1=LoadBus10       Bus2=LoadBus11     Linecode=sqmm300 Length=1 Units=meter
+New Line.Junction1East      Bus1=JunctionBus1    Bus2=JunctionBus2  Linecode=sqmm300 Length=1 Units=meter
+New Line.Houses1            Bus1=JunctionBus2    Bus2=HouseBus1     Linecode=sqmm300 Length=1 Units=meter
+New Line.Houses2            Bus1=HouseBus1       Bus2=HouseBus2     Linecode=sqmm300 Length=1 Units=meter
+New Line.Junction2North     Bus1=JunctionBus2    Bus2=LoadBus6      Linecode=sqmm300 Length=1 Units=meter
+New Line.ToLoad1            Bus1=LoadBus6        Bus2=LoadBus1      Linecode=sqmm300 Length=1 Units=meter
+New Line.ToFootball         Bus1=LoadBus6        Bus2=LoadBus13     Linecode=sqmm300 Length=1 Units=meter
 
-New Load.Load7 Bus1=LoadBus7 kV=0.4 kW=53 PF=.95
+New Load.Load1  Bus1=LoadBus1       kV=0.4 kW=35 PF=.95
+New Load.Load2  Bus1=LoadBus1       kV=0.4 kW=233 PF=.95
+New Load.Load3  Bus1=HouseBus1      kV=0.4 kW=48 PF=.95
+New Load.Load4  Bus1=HouseBus2      kV=0.4 kW=240 PF=.95
+New Load.Load5  Bus1=JunctionBus2   kV=0.4 kW=258.88 PF=.95
+New Load.Load6  Bus1=LoadBus6       kV=0.4 kW=104 PF=.95
+New Load.Load7  Bus1=LoadBus7       kV=0.4 kW=53 PF=.95
+New Load.Load8  Bus1=LoadBus8       kV=0.4 kW=15 PF=.95
+New Load.Load9  Bus1=LoadBus9       kV=0.4 kW=50 PF=.95
+New Load.Load10 Bus1=LoadBus10      kV=0.4 kW=100 PF=.95
+New Load.Load11 Bus1=LoadBus11      kV=0.4 kW=20 PF=.95
+New Load.Load12 Bus1=LoadBus12      kV=0.4 kW=1.3 PF=.95
+New Load.Load13 Bus1= LoadBus13     kV=0.4 kW=50 PF=.95
