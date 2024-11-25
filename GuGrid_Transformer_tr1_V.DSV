@@ -1,9 +1,9 @@
 SetProp, 1E050,   -1E050, 1E050, -1E050, 16777215, 16777215, 0, 4
 NoScales,
-Caption, "Line.ARNAVAGEN1 Voltages"
-ChartCaption, "Line.ARNAVAGEN1 Voltages"
+Caption, "Transformer.TR1 Voltages"
+ChartCaption, "Transformer.TR1 Voltages"
 Rect, 100, 10, 200, 60
-Label, 150, 15, 0, "Line.ARNAVAGEN1", 0
+Label, 150, 15, 0, "Transformer.TR1", 0
 BoldLabel, 1
 Width, 7
 DataColor, 8421504
@@ -14,61 +14,61 @@ Width, 3
 FStyle, 0
 Move, 0, 50
 Draw, 100, 50
-Center,  15, 52, 10, "106.275"
-Center,  60, 52, 10, " /_   -32.97"
+Center,  15, 52, 10, "6660.5"
+Center,  60, 52, 10, " /_    -0.09"
 Center,  90, 52, 10, " ^"
 FStyle, 0
 Move, 0, 40
 Draw, 100, 40
-Center,  15, 42, 10, "106.275"
-Center,  60, 42, 10, " /_  -152.97"
+Center,  15, 42, 10, "6660.5"
+Center,  60, 42, 10, " /_  -120.09"
 Center,  90, 42, 10, " ^"
 FStyle, 0
 Move, 0, 30
 Draw, 100, 30
-Center,  15, 32, 10, "106.275"
-Center,  60, 32, 10, " /_    87.03"
+Center,  15, 32, 10, "6660.5"
+Center,  60, 32, 10, " /_   119.91"
 Center,  90, 32, 10, " ^"
+Width, 1
 FStyle, 0
 Move, 0, 20
 Draw, 100, 20
 Center,  15, 22, 10, "0"
 Center,  60, 22, 10, " /_     0.00"
 Center,  90, 22, 10, " ^"
-Width, 1
 Width, 7
 Move, -5, 5
 Draw, -5, 55
-Center,  25, 60, 10, "JUNCTIONBUS1"
+Center,  25, 60, 10, "SOURCEBUS.1.2.3"
 Width, 3
 FStyle, 0
 Move, 300, 50
 Draw, 200, 50
 Center,  210, 52, 10, "^ "
-Center,  240, 52, 10, "96.9491"
-Center,  280, 52, 10, " /_   -33.57"
+Center,  240, 52, 10, "242.149"
+Center,  280, 52, 10, " /_   -30.08"
 FStyle, 0
 Move, 300, 40
 Draw, 200, 40
 Center,  210, 42, 10, "^ "
-Center,  240, 42, 10, "96.9491"
-Center,  280, 42, 10, " /_  -153.57"
+Center,  240, 42, 10, "242.149"
+Center,  280, 42, 10, " /_  -150.08"
 FStyle, 0
 Move, 300, 30
 Draw, 200, 30
 Center,  210, 32, 10, "^ "
-Center,  240, 32, 10, "96.9491"
-Center,  280, 32, 10, " /_    86.43"
+Center,  240, 32, 10, "242.149"
+Center,  280, 32, 10, " /_    89.92"
+Width, 1
 FStyle, 0
 Move, 300, 20
 Draw, 200, 20
 Center,  210, 22, 10, "^ "
 Center,  240, 22, 10, "0"
 Center,  280, 22, 10, " /_     0.00"
-Width, 1
 Width, 7
 Move, 305, 5
 Draw, 305, 55
-Center,  275, 60, 10, "LOADBUS8"
+Center,  275, 60, 10, "SUB_BUS.1.2.3.0"
 Caption, " Voltages"
 PctRim, 5

@@ -1,9 +1,9 @@
 SetProp, 1E050,   -1E050, 1E050, -1E050, 16777215, 16777215, 0, 4
 NoScales,
-Caption, "Line.ARNAVAGEN1 Voltages"
-ChartCaption, "Line.ARNAVAGEN1 Voltages"
+Caption, "Line.DISAVAGEN Voltages"
+ChartCaption, "Line.DISAVAGEN Voltages"
 Rect, 100, 10, 200, 60
-Label, 150, 15, 0, "Line.ARNAVAGEN1", 0
+Label, 150, 15, 0, "Line.DISAVAGEN", 0
 BoldLabel, 1
 Width, 7
 DataColor, 8421504
@@ -14,20 +14,20 @@ Width, 3
 FStyle, 0
 Move, 0, 50
 Draw, 100, 50
-Center,  15, 52, 10, "106.275"
-Center,  60, 52, 10, " /_   -32.97"
+Center,  15, 52, 10, "86.4977"
+Center,  60, 52, 10, " /_   -34.42"
 Center,  90, 52, 10, " ^"
 FStyle, 0
 Move, 0, 40
 Draw, 100, 40
-Center,  15, 42, 10, "106.275"
-Center,  60, 42, 10, " /_  -152.97"
+Center,  15, 42, 10, "86.4977"
+Center,  60, 42, 10, " /_  -154.42"
 Center,  90, 42, 10, " ^"
 FStyle, 0
 Move, 0, 30
 Draw, 100, 30
-Center,  15, 32, 10, "106.275"
-Center,  60, 32, 10, " /_    87.03"
+Center,  15, 32, 10, "86.4977"
+Center,  60, 32, 10, " /_    85.58"
 Center,  90, 32, 10, " ^"
 FStyle, 0
 Move, 0, 20
@@ -39,26 +39,26 @@ Width, 1
 Width, 7
 Move, -5, 5
 Draw, -5, 55
-Center,  25, 60, 10, "JUNCTIONBUS1"
+Center,  25, 60, 10, "LOADBUS9"
 Width, 3
 FStyle, 0
 Move, 300, 50
 Draw, 200, 50
 Center,  210, 52, 10, "^ "
-Center,  240, 52, 10, "96.9491"
-Center,  280, 52, 10, " /_   -33.57"
+Center,  240, 52, 10, "86.4624"
+Center,  280, 52, 10, " /_   -34.42"
 FStyle, 0
 Move, 300, 40
 Draw, 200, 40
 Center,  210, 42, 10, "^ "
-Center,  240, 42, 10, "96.9491"
-Center,  280, 42, 10, " /_  -153.57"
+Center,  240, 42, 10, "86.4624"
+Center,  280, 42, 10, " /_  -154.42"
 FStyle, 0
 Move, 300, 30
 Draw, 200, 30
 Center,  210, 32, 10, "^ "
-Center,  240, 32, 10, "96.9491"
-Center,  280, 32, 10, " /_    86.43"
+Center,  240, 32, 10, "86.4624"
+Center,  280, 32, 10, " /_    85.58"
 FStyle, 0
 Move, 300, 20
 Draw, 200, 20
@@ -69,6 +69,6 @@ Width, 1
 Width, 7
 Move, 305, 5
 Draw, 305, 55
-Center,  275, 60, 10, "LOADBUS8"
+Center,  275, 60, 10, "LOADBUS10"
 Caption, " Voltages"
 PctRim, 5
