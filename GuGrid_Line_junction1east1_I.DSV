@@ -1,9 +1,9 @@
 SetProp, 1E050,   -1E050, 1E050, -1E050, 16777215, 16777215, 0, 4
 NoScales,
-Caption, "Line.LINE1 Currents"
-ChartCaption, "Line.LINE1 Currents"
+Caption, "Line.JUNCTION1EAST1 Currents"
+ChartCaption, "Line.JUNCTION1EAST1 Currents"
 Rect, 100, 10, 200, 60
-Label, 150, 15, 0, "Line.LINE1", 0
+Label, 150, 15, 0, "Line.JUNCTION1EAST1", 0
 BoldLabel, 1
 Width, 7
 DataColor, 8421504
@@ -14,73 +14,73 @@ Width, 3
 FStyle, 0
 Move, 0, 50
 Draw, 100, 50
-Center,  15, 52, 10, "491.061"
-Center,  60, 52, 10, " /_   -43.35"
+Center,  15, 52, 10, "528.269"
+Center,  60, 52, 10, " /_   -49.81"
 Center,  90, 52, 10, " ->"
 FStyle, 0
 Move, 0, 40
 Draw, 100, 40
-Center,  15, 42, 10, "491.061"
-Center,  60, 42, 10, " /_  -163.35"
+Center,  15, 42, 10, "528.269"
+Center,  60, 42, 10, " /_  -169.81"
 Center,  90, 42, 10, " ->"
 FStyle, 0
 Move, 0, 30
 Draw, 100, 30
-Center,  15, 32, 10, "491.061"
-Center,  60, 32, 10, " /_    76.65"
+Center,  15, 32, 10, "528.269"
+Center,  60, 32, 10, " /_    70.19"
 Center,  90, 32, 10, " ->"
 FStyle, 0
 Move, 0, 20
 Draw, 100, 20
-Center,  15, 22, 10, "1.03398E-025"
-Center,  60, 22, 10, " /_     0.00"
+Center,  15, 22, 10, "2.4428E-014"
+Center,  60, 22, 10, " /_    74.09"
 Center,  90, 22, 10, " ->"
 Width, 1
 FStyle, 0
 Move, 0, -10
 Draw, 100, -10
-Center,  15, -8, 10, "1.02173E-011"
-Center,  60, -8, 10, " /_  -145.43"
+Center,  15, -8, 10, "4.92256E-013"
+Center,  60, -8, 10, " /_    24.47"
 Center,  90, -8, 10, " ->"
 Width, 7
 Move, -5, 5
 Draw, -5, 55
-Center,  25, 60, 10, "SUB_BUS.1.2.3.4"
+Center,  25, 60, 10, "JUNCTIONBUS1.1.2.3.4"
 Width, 3
 FStyle, 0
 Move, 300, 50
 Draw, 200, 50
 Center,  210, 52, 10, "<- "
-Center,  240, 52, 10, "491.064"
-Center,  280, 52, 10, " /_   136.65"
+Center,  240, 52, 10, "528.27"
+Center,  280, 52, 10, " /_   130.19"
 FStyle, 0
 Move, 300, 40
 Draw, 200, 40
 Center,  210, 42, 10, "<- "
-Center,  240, 42, 10, "491.064"
-Center,  280, 42, 10, " /_    16.65"
+Center,  240, 42, 10, "528.27"
+Center,  280, 42, 10, " /_    10.19"
 FStyle, 0
 Move, 300, 30
 Draw, 200, 30
 Center,  210, 32, 10, "<- "
-Center,  240, 32, 10, "491.064"
-Center,  280, 32, 10, " /_  -103.35"
+Center,  240, 32, 10, "528.27"
+Center,  280, 32, 10, " /_  -109.81"
 FStyle, 0
 Move, 300, 20
 Draw, 200, 20
 Center,  210, 22, 10, "<- "
-Center,  240, 22, 10, "1.76931E-014"
-Center,  280, 22, 10, " /_    48.76"
+Center,  240, 22, 10, "2.44301E-014"
+Center,  280, 22, 10, " /_  -105.91"
 Width, 1
 FStyle, 0
 Move, 300, -10
 Draw, 200, -10
 Center,  210, -8, 10, "<- "
-Center,  240, -8, 10, "9.50554E-012"
-Center,  280, -8, 10, " /_    33.28"
+Center,  240, -8, 10, "4.92255E-013"
+Center,  280, -8, 10, " /_  -155.53"
 Width, 7
 Move, 305, 5
 Draw, 305, 55
-Center,  275, 60, 10, "JUNCTIONBUS1.1.2.3.4"
+Center,  275, 60, 10, "JUNCTIONBUS2.1.2.3.4"
 Caption, " Currents"
 PctRim, 5

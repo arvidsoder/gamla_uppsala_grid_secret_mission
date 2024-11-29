@@ -1,15 +1,15 @@
 
 
-New Linecode.sqmm15    nphase=4 R1=23.17  X1=0.094  R0=23.17  X0=0.094  C1=.515 C0=.515 NormAmps=25  Units=km baseFreq=50
-New Linecode.sqmm4     nphase=4 R1=9.48   X1=0.094  R0=9.48   X0=0.094  C1=.515 C0=.515 NormAmps=44  Units=km baseFreq=50
-New Linecode.sqmm16    nphase=4 R1=2.4414 X1=0.0815 R0=2.4414 X0=0.0815 C1=.401 C0=.401 NormAmps=73  Units=km baseFreq=50
-New Linecode.sqmm35    nphase=4 R1=1.1128 X1=0.0794 R0=1.1128 X0=0.0794 C1=.464 C0=.464 NormAmps=115 Units=km baseFreq=50
-New Linecode.sqmm95    nphase=4 R1=0.4165 X1=0.0734 R0=0.4165 X0=0.0734 C1=.564 C0=.564 NormAmps=198 Units=km baseFreq=50
-New Linecode.sqmm185   nphase=4 R1=0.2222 X1=0.0727 R0=0.2222 X0=0.0727 C1=.563 C0=.563 NormAmps=285 Units=km baseFreq=50
+New Linecode.sqmm15    nphase=4 R1=23.17  X1=0.094  R0=23.17  X0=0.094  C1= 515  C0=515 NormAmps=25  Units=km baseFreq=50
+New Linecode.sqmm4     nphase=4 R1=9.48   X1=0.094  R0=9.48   X0=0.094  C1= 515  C0=515 NormAmps=44  Units=km baseFreq=50
+New Linecode.sqmm16    nphase=4 R1=2.4414 X1=0.0815 R0=2.4414 X0=0.0815 C1= 401  C0=401 NormAmps=73  Units=km baseFreq=50
+New Linecode.sqmm35    nphase=4 R1=1.1128 X1=0.0794 R0=1.1128 X0=0.0794 C1= 464  C0=464 NormAmps=115 Units=km baseFreq=50
+New Linecode.sqmm95    nphase=4 R1=0.4165 X1=0.0734 R0=0.4165 X0=0.0734 C1= 564  C0=564 NormAmps=198 Units=km baseFreq=50
+New Linecode.sqmm185   nphase=4 R1=0.2222 X1=0.0727 R0=0.2222 X0=0.0727 C1= 563  C0=563 NormAmps=285 Units=km baseFreq=50
 New Linecode.sqmm300   nphase=4 R1=0.1464 X1=0.0711 R0=0.1464 X0=0.0711 C1= 616 C0= 616 NormAmps=371 Units=km baseFreq=50 
-New Linecode.sqmm400   nphase=4 R1=0.1224 X1=0.0705 R0=0.1220 X0=0.0705 C1=.649 C0=.649 NormAmps=423 Units=km baseFreq=50
-New Linecode.sqmm500   nphase=4 R1=0.1046 X1=0.0703 R0=0.1046 X0=0.0703 C1=.666 C0=.666 NormAmps=474 Units=km baseFreq=50
-New Linecode.sqmm630   nphase=4 R1=0.0920 X1=0.0697 R0=0.0920 X0=0.0697 C1=.714 C0=.710 NormAmps=532 Units=km baseFreq=50
+New Linecode.sqmm400   nphase=4 R1=0.1224 X1=0.0705 R0=0.1220 X0=0.0705 C1= 649 C0= 649 NormAmps=423 Units=km baseFreq=50
+New Linecode.sqmm500   nphase=4 R1=0.1046 X1=0.0703 R0=0.1046 X0=0.0703 C1= 666 C0= 666 NormAmps=474 Units=km baseFreq=50
+New Linecode.sqmm630   nphase=4 R1=0.0920 X1=0.0697 R0=0.0920 X0=0.0697 C1= 714 C0= 710 NormAmps=532 Units=km baseFreq=50
 
 New Linecode.sqmm1_5mf nphase=4 R1=23.17  X1=0.094  R0=23.17  X0=0.094  C1=515 C0=515 NormAmps = 25   units=km baseFreq=50 
 New Linecode.sqmm4mf   nphase=4 R1=9.48   X1=0.094  R0=9.48   X0=0.094  C1=515 C0=515 NormAmps = 44   units=km baseFreq=50

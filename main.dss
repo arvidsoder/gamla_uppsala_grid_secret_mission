@@ -10,4 +10,6 @@ Redirect gu_grid.dss
 
 
 Solve
+show power in loads
+show current in lines
 show voltage ln nodes
