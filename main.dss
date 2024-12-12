@@ -1,7 +1,7 @@
 Clear
 Set DefaultBaseFrequency=50
 New Circuit.GuGrid
-Edit Vsource.Source BasekV=11 pu=1.05 ISC3=60000 ISC1=50000
+Edit Vsource.Source BasekV=11 pu=1.00 ISC3=12040 ISC1=12040
 Set MaxControliter=500
 Set maxiterations=100
 
@@ -10,6 +10,7 @@ Redirect gu_grid.dss
 
 
 Solve
-show power in loads
-show current in lines
+show power bus
+show current elements
 show voltage ln nodes
+CktLosses
